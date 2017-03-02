@@ -53,6 +53,12 @@ namespace MenuHamburgerDroid.Activities
                         break;
                     case Resource.Id.nav_home_2:
                         ListItemClicked(1);
+
+                        break;
+                }
+                switch(e.MenuItem.SubMenu.Item.ItemId)
+                {
+                    case Resource.Id.sub1:
                         break;
                 }
 
@@ -85,9 +91,9 @@ namespace MenuHamburgerDroid.Activities
                 case 0:
                     fragment = Fragment1.NewInstance();
                     break;
-                case 1:
-                    fragment = Fragment2.NewInstance();
-                    break;
+                //case 1:
+                //    fragment = Fragment2.NewInstance();
+                //    break;
             }
 
             SupportFragmentManager.BeginTransaction()

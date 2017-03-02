@@ -12,11 +12,12 @@
         android:title="Home 2" />
   </group>
 
-  <item android:title="Sub items">
+  <item android:title="Sub items" android:visible="true">
     <menu>
       <item
           android:icon="@drawable/ic_home_1"
-          android:title="Sub item 1" />
+          android:title="Sub item 1" 
+          android:id="@+id/sub1"/>
       <item
           android:icon="@drawable/ic_home_2"
           android:title="Sub item 2" />

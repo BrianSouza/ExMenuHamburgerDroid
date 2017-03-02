@@ -1994,6 +1994,9 @@ namespace MenuHamburgerDroid
 			// aapt resource value: 0x7f0b0070
 			public const int status_bar_latest_event_content = 2131427440;
 			
+			// aapt resource value: 0x7f0b007d
+			public const int sub1 = 2131427453;
+			
 			// aapt resource value: 0x7f0b0062
 			public const int submit_area = 2131427426;
 			
