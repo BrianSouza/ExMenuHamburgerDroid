@@ -49,23 +49,26 @@ namespace MenuHamburgerDroid.Activities
                 switch (e.MenuItem.ItemId)
                 {
                     case Resource.Id.nav_home_1:
-                        ListItemClicked(0);
+                        var nav2 = this.FindViewById<NavigationView>(Resource.Id.nav_view);
+                        var itm2 = nav2.Menu.GetItem(2);
+
+                        itm2.SetVisible(false);
                         break;
                     case Resource.Id.nav_home_2:
-                        ListItemClicked(1);
+                        var nav = this.FindViewById<NavigationView>(Resource.Id.nav_view);
+                        var itm1 = nav.Menu.GetItem(2);
 
+                        itm1.SetVisible(true);
                         break;
                 }
-                switch(e.MenuItem.SubMenu.Item.ItemId)
+                switch(e.MenuItem.ItemId)
                 {
                     case Resource.Id.sub1:
                         break;
                 }
 
-                Snackbar.Make(drawerLayout, "You selected: " + e.MenuItem.TitleFormatted, Snackbar.LengthLong)
-                    .Show();
 
-                drawerLayout.CloseDrawers();
+                //drawerLayout.CloseDrawers();
             };
 
 

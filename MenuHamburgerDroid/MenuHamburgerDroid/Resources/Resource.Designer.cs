@@ -1847,6 +1847,9 @@ namespace MenuHamburgerDroid
 			// aapt resource value: 0x7f0b0079
 			public const int info = 2131427449;
 			
+			// aapt resource value: 0x7f0b007e
+			public const int itm1 = 2131427454;
+			
 			// aapt resource value: 0x7f0b0033
 			public const int left = 2131427379;
 			
@@ -1871,14 +1874,17 @@ namespace MenuHamburgerDroid
 			// aapt resource value: 0x7f0b0037
 			public const int mini = 2131427383;
 			
+			// aapt resource value: 0x7f0b007b
+			public const int mnu1 = 2131427451;
+			
 			// aapt resource value: 0x7f0b001f
 			public const int multiply = 2131427359;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int nav_home_1 = 2131427451;
-			
 			// aapt resource value: 0x7f0b007c
-			public const int nav_home_2 = 2131427452;
+			public const int nav_home_1 = 2131427452;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int nav_home_2 = 2131427453;
 			
 			// aapt resource value: 0x7f0b006d
 			public const int nav_view = 2131427437;
@@ -1994,8 +2000,8 @@ namespace MenuHamburgerDroid
 			// aapt resource value: 0x7f0b0070
 			public const int status_bar_latest_event_content = 2131427440;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int sub1 = 2131427453;
+			// aapt resource value: 0x7f0b007f
+			public const int sub1 = 2131427455;
 			
 			// aapt resource value: 0x7f0b0062
 			public const int submit_area = 2131427426;

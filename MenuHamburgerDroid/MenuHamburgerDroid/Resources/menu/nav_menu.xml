@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/mnu1">
 
   <group android:checkableBehavior="single">
     <item
@@ -12,7 +12,7 @@
         android:title="Home 2" />
   </group>
 
-  <item android:title="Sub items" android:visible="true">
+  <item android:title="Sub items" android:visible="false" android:id="@+id/itm1">
     <menu>
       <item
           android:icon="@drawable/ic_home_1"
